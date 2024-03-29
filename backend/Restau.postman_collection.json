@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "08af1734-3bdd-45a1-86e3-ad4bbb4430e0",
+		"name": "Restau",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26650498"
+	},
+	"item": [
+		{
+			"name": "menus",
+			"item": [
+				{
+					"name": "menus",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{backendUrl}}menus",
+							"host": [
+								"{{backendUrl}}menus"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "menusOne",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{backendUrl}}menus/2",
+							"host": [
+								"{{backendUrl}}menus"
+							],
+							"path": [
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "menus",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "price",
+									"value": "1500",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{backendUrl}}menus/2",
+							"host": [
+								"{{backendUrl}}menus"
+							],
+							"path": [
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "menus",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "chevre roti",
+									"type": "text"
+								},
+								{
+									"key": "price",
+									"value": "15000",
+									"type": "text"
+								},
+								{
+									"key": "type",
+									"value": "plat",
+									"type": "text"
+								},
+								{
+									"key": "duration",
+									"value": "60",
+									"type": "text"
+								},
+								{
+									"key": "isAvailable",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "photo",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{backendUrl}}menus",
+							"host": [
+								"{{backendUrl}}menus"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "backendUrl",
+			"value": "http://localhost:8080/api/",
+			"type": "string"
+		}
+	]
+}

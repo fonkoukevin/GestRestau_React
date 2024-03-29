@@ -1,0 +1,159 @@
+/* Employe.css */
+
+
+.card-container2 {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 6px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  border: 2px solid #f1f8f8; /* Ajout de la bordure */
+  display: inline-block; /* Afficher en ligne */
+  width: 300px; /* Ajout de la largeur */
+  margin-right: 20px; /* Ajout de l'espace entre les cartes */
+}
+
+.card-container2 h2 {
+  text-align: center; /* Ajout : centre le texte des titres h2 */
+  margin-bottom: 15px;
+}
+
+.card-container2 p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.card-container2 form {
+  border: 1px solid #ccc; /* Ajout de la bordure pour le formulaire */
+  border-radius: 5px; /* Ajout de la bordure arrondie */
+  padding: 10px; /* Ajout de l'espace intérieur */
+}
+
+.card-container2 form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.card-container2 form input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.card-container2 form button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.card-container2 form button[type="submit1"] {
+  background-color: black;
+}
+
+.card-container2 form button[type="button"] {
+  background-color: black;
+}
+
+.card-container2 button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  margin-bottom: 5px;
+}
+
+.card-actions {
+  margin-top: 10px;
+}
+
+.edit-button,
+.delete-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.edit-button {
+  background-color:black;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+form {
+  border-radius: 5px;
+  border: 1px solid #ebe7e7; /* Ajout de la bordure pour le formulaire */
+  padding: 20px 30px; /* Ajout du padding gauche */
+  width: 400px; /* Ajustement de la largeur */
+  margin: 0 auto; /* Centrage horizontal */
+  box-shadow: 0 6px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+form button[type="submit"] {
+  background-color: black;
+}
+
+.message {
+  text-align: center;
+  margin-bottom: 15px;
+}
